@@ -83,24 +83,23 @@ INSERT INTO vets (name, age, date_of_graduation) VALUES ('Stephanie Mendez', 64,
 INSERT INTO vets (name, age, date_of_graduation) VALUES ('Jack Harkness', 38, '2008-06-08');
 
 -- Insert data for visits
-INSERT INTO visits (vet_id, animal_id, visit_date) VALUES
-  ((SELECT id FROM vets WHERE name = 'William Tatcher'), (SELECT id FROM animals WHERE name = 'Agumon'), '2020-05-24'),
-  ((SELECT id FROM vets WHERE name = 'Stephanie Mendez'), (SELECT id FROM animals WHERE name = 'Agumon'), '2020-07-22'),
-  ((SELECT id FROM vets WHERE name = 'Jack Harkness'), (SELECT id FROM animals WHERE name = 'Gabumon'), '2021-02-02'),
-  ((SELECT id FROM vets WHERE name = 'Maisy Smith'), (SELECT id FROM animals WHERE name = 'Pikachu'), '2020-01-05'),
-  ((SELECT id FROM vets WHERE name = 'Maisy Smith'), (SELECT id FROM animals WHERE name = 'Pikachu'), '2020-03-08'),
-  ((SELECT id FROM vets WHERE name = 'Maisy Smith'), (SELECT id FROM animals WHERE name = 'Pikachu'), '2020-05-14'),
-  ((SELECT id FROM vets WHERE name = 'Stephanie Mendez'), (SELECT id FROM animals WHERE name = 'Devimon'), '2021-05-04'),
-  ((SELECT id FROM vets WHERE name = 'Jack Harkness'), (SELECT id FROM animals WHERE name = 'Charmander'), '2021-02-24'),
-  ((SELECT id FROM vets WHERE name = 'Maisy Smith'), (SELECT id FROM animals WHERE name = 'Plantmon'), '2019-12-21'),
-  ((SELECT id FROM vets WHERE name = 'William Tatcher'), (SELECT id FROM animals WHERE name = 'Plantmon'), '2020-08-10'),
-  ((SELECT id FROM vets WHERE name = 'Maisy Smith'), (SELECT id FROM animals WHERE name = 'Plantmon'), '2021-04-07'),
-  ((SELECT id FROM vets WHERE name = 'Stephanie Mendez'), (SELECT id FROM animals WHERE name = 'Squirtle'), '2019-09-29'),
-  ((SELECT id FROM vets WHERE name = 'Jack Harkness'), (SELECT id FROM animals WHERE name = 'Angemon'), '2020-10-03'),
-  ((SELECT id FROM vets WHERE name = 'Jack Harkness'), (SELECT id FROM animals WHERE name = 'Angemon'), '2020-11-04'),
-  ((SELECT id FROM vets WHERE name = 'Maisy Smith'), (SELECT id FROM animals WHERE name = 'Boarmon'), '2019-01-24'),
-  ((SELECT id FROM vets WHERE name = 'Maisy Smith'), (SELECT id FROM animals WHERE name = 'Boarmon'), '2019-05-15'),
-  ((SELECT id FROM vets WHERE name = 'Maisy Smith'), (SELECT id FROM animals WHERE name = 'Boarmon'), '2020-02-27'),
-  ((SELECT id FROM vets WHERE name = 'Maisy Smith'), (SELECT id FROM animals WHERE name = 'Boarmon'), '2020-08-03'),
-  ((SELECT id FROM vets WHERE name = 'Stephanie Mendez'), (SELECT id FROM animals WHERE name = 'Blossom'), '2020-05-24'),
-  ((SELECT id FROM vets WHERE name = 'William Tatcher'), (SELECT id FROM animals WHERE name = 'Blossom'), '2021-01-11');
+INSERT INTO visits(animals_id,vets_id,date_of_visit) VALUES (9,1,'2020-05-24');
+INSERT INTO visits(animals_id,vets_id,date_of_visit) VALUES (9,3,'2020-07-22');
+INSERT INTO visits(animals_id,vets_id,date_of_visit) VALUES (10,4,'2021-02-02');
+INSERT INTO visits(animals_id,vets_id,date_of_visit) VALUES (17,2,'2020-01-05');
+INSERT INTO visits(animals_id,vets_id,date_of_visit) VALUES (17,2,'2020-03-08');
+INSERT INTO visits(animals_id,vets_id,date_of_visit) VALUES (17,2,'2020-05-14');
+INSERT INTO visits(animals_id,vets_id,date_of_visit) VALUES (16,3,'2021-05-04');
+INSERT INTO visits(animals_id,vets_id,date_of_visit) VALUES (19,4,'2021-02-24');
+INSERT INTO visits(animals_id,vets_id,date_of_visit) VALUES (18,2,'2019-12-21');
+INSERT INTO visits(animals_id,vets_id,date_of_visit) VALUES (18,1,'2020-08-10');
+INSERT INTO visits(animals_id,vets_id,date_of_visit) VALUES (18,2,'2021-04-07');
+INSERT INTO visits(animals_id,vets_id,date_of_visit) VALUES (23,3,'2019-09-29');
+INSERT INTO visits(animals_id,vets_id,date_of_visit) VALUES (20,4,'2020-10-03');
+INSERT INTO visits(animals_id,vets_id,date_of_visit) VALUES (20,4,'2020-11-04');
+INSERT INTO visits(animals_id,vets_id,date_of_visit) VALUES (22,2,'2019-01-24');
+INSERT INTO visits(animals_id,vets_id,date_of_visit) VALUES(22,2,'2019-05-15');
+INSERT INTO visits(animals_id,vets_id,date_of_visit) VALUES(22,2,'2020-02-27');
+INSERT INTO visits(animals_id,vets_id,date_of_visit) VALUES(22,2,'2020-08-03');
+INSERT INTO visits(animals_id,vets_id,date_of_visit) VALUES(26,3,'2020-05-24');
+INSERT INTO visits(animals_id,vets_id,date_of_visit) VALUES(26,1,'2021-01-11');;
