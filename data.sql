@@ -82,6 +82,12 @@ INSERT INTO vets (name, age, date_of_graduation) VALUES ('Maisy Smith', 26, '201
 INSERT INTO vets (name, age, date_of_graduation) VALUES ('Stephanie Mendez', 64, '1981-05-04');
 INSERT INTO vets (name, age, date_of_graduation) VALUES ('Jack Harkness', 38, '2008-06-08');
 
+-- Insert into specializations
+INSERT INTO specializations(species_id,vets_id) VALUES (1,1);
+INSERT INTO specializations(species_id,vets_id) VALUES (1,3);
+INSERT INTO specializations(species_id,vets_id) VALUES (2,3);
+INSERT INTO specializations(species_id,vets_id) VALUES (2,4);
+
 -- Insert data for visits
 INSERT INTO visits(animals_id,vets_id,date_of_visit) VALUES (9,1,'2020-05-24');
 INSERT INTO visits(animals_id,vets_id,date_of_visit) VALUES (9,3,'2020-07-22');
