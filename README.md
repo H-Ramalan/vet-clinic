@@ -86,6 +86,16 @@ To run the project:
 - GitHub: [@H-Ramalan](https://github.com/H-Ramalan)
 - Twitter: [@Hamza_Ramalan](https://twitter.com/Hamza_Ramalan)
 - LinkedIn: [Hamza Ramalan Ibrahim](https://www.linkedin.com/in/hamza-ramalan/)
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Yonas Henok**
+
+- GitHub: [@Yonashenok](https://github.com/yonashenok)
+- Twitter: [@yonashenok](https://twitter.com/YonasHenok3)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/yonas-henok-996a26217)
+
+<!-- FUTURE FEATURES -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
